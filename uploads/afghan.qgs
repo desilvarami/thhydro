@@ -1,0 +1,1348 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" saveUserFull="ramesh" saveUser="ramesh" version="3.28.13-Firenze" saveDateTime="2024-02-12T16:06:41">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+      <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+      <srsid>3452</srsid>
+      <srid>4326</srid>
+      <authid>EPSG:4326</authid>
+      <description>WGS 84</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer source="../Downloads/af/AFG_adm0.shp" providerKey="ogr" name="AFG_adm0" expanded="1" id="AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885" patch_size="-1,-1" checked="Qt::Checked" legend_exp="" legend_split_behavior="0">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" type="1" mode="2" unit="1" maxScale="0" tolerance="12" scaleDependencyMode="0" intersection-snapping="0" minScale="0" self-snapping="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" type="1" maxScale="0" units="1" tolerance="12" id="AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885" minScale="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>60.14513607025146769</xmin>
+      <ymin>29.13333845138561173</ymin>
+      <xmax>75.25385837554954094</xmax>
+      <ymax>38.71915864944480745</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" name="AFG_adm0" drawingOrder="-1" open="true" checked="Qt::Checked">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile visible="1" isInOverview="0" layerid="AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapcanvas name="mAreaCanvas" annotationsVisible="1">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <main-annotation-layer refreshOnNotifyEnabled="0" type="annotation" refreshOnNotifyMessage="" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <id>Annotations_ae0d2c83_c91a_4ee6_92a6_64d0f0670e07</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer refreshOnNotifyEnabled="0" geometry="Polygon" simplifyDrawingHints="1" legendPlaceholderImage="" wkbType="MultiPolygon" maxScale="0" labelsEnabled="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" minScale="100000000" autoRefreshEnabled="0" readOnly="0" simplifyLocal="1" simplifyDrawingTol="1" styleCategories="AllStyleCategories" symbologyReferenceScale="-1" simplifyMaxScale="1" type="vector" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>60.5048675537109375</xmin>
+        <ymin>29.36157226562511369</ymin>
+        <xmax>74.89412689209005691</xmax>
+        <ymax>38.49092483520529839</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>60.5048675537109375</xmin>
+        <ymin>29.36157226562511369</ymin>
+        <xmax>74.89412689209005691</xmax>
+        <ymax>38.49092483520529839</ymax>
+      </wgs84extent>
+      <id>AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885</id>
+      <datasource>../Downloads/af/AFG_adm0.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>AFG_adm0</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" startExpression="" durationUnit="min" mode="0" durationField="" limitMode="0" startField="" endExpression="" accumulate="0" endField="" fixedDuration="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation zscale="1" type="IndividualFeatures" binding="Centroid" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" symbology="Line" extrusionEnabled="0" extrusion="0" clamping="Terrain" zoffset="0">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol frame_rate="10" type="line" alpha="1" clip_to_extent="1" force_rhr="0" name="" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleLine" locked="0" pass="0">
+              <Option type="Map">
+                <Option type="QString" name="align_dash_pattern" value="0"/>
+                <Option type="QString" name="capstyle" value="square"/>
+                <Option type="QString" name="customdash" value="5;2"/>
+                <Option type="QString" name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="customdash_unit" value="MM"/>
+                <Option type="QString" name="dash_pattern_offset" value="0"/>
+                <Option type="QString" name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="dash_pattern_offset_unit" value="MM"/>
+                <Option type="QString" name="draw_inside_polygon" value="0"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="line_color" value="255,158,23,255"/>
+                <Option type="QString" name="line_style" value="solid"/>
+                <Option type="QString" name="line_width" value="0.6"/>
+                <Option type="QString" name="line_width_unit" value="MM"/>
+                <Option type="QString" name="offset" value="0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="ring_filter" value="0"/>
+                <Option type="QString" name="trim_distance_end" value="0"/>
+                <Option type="QString" name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="trim_distance_end_unit" value="MM"/>
+                <Option type="QString" name="trim_distance_start" value="0"/>
+                <Option type="QString" name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="trim_distance_start_unit" value="MM"/>
+                <Option type="QString" name="tweak_dash_pattern_on_corners" value="0"/>
+                <Option type="QString" name="use_custom_dash" value="0"/>
+                <Option type="QString" name="width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol frame_rate="10" type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <Option type="Map">
+                <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="color" value="255,158,23,255"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="offset" value="0,0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="outline_color" value="182,113,16,255"/>
+                <Option type="QString" name="outline_style" value="solid"/>
+                <Option type="QString" name="outline_width" value="0.2"/>
+                <Option type="QString" name="outline_width_unit" value="MM"/>
+                <Option type="QString" name="style" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol frame_rate="10" type="marker" alpha="1" clip_to_extent="1" force_rhr="0" name="" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleMarker" locked="0" pass="0">
+              <Option type="Map">
+                <Option type="QString" name="angle" value="0"/>
+                <Option type="QString" name="cap_style" value="square"/>
+                <Option type="QString" name="color" value="255,158,23,255"/>
+                <Option type="QString" name="horizontal_anchor_point" value="1"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="name" value="diamond"/>
+                <Option type="QString" name="offset" value="0,0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="outline_color" value="182,113,16,255"/>
+                <Option type="QString" name="outline_style" value="solid"/>
+                <Option type="QString" name="outline_width" value="0.2"/>
+                <Option type="QString" name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="outline_width_unit" value="MM"/>
+                <Option type="QString" name="scale_method" value="diameter"/>
+                <Option type="QString" name="size" value="3"/>
+                <Option type="QString" name="size_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="size_unit" value="MM"/>
+                <Option type="QString" name="vertical_anchor_point" value="1"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 referencescale="-1" type="singleSymbol" forceraster="0" symbollevels="0" enableorderby="0">
+        <symbols>
+          <symbol frame_rate="10" type="fill" alpha="1" clip_to_extent="1" force_rhr="0" name="0" is_animated="0">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option type="QString" name="name" value=""/>
+                <Option name="properties"/>
+                <Option type="QString" name="type" value="collection"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" locked="0" pass="0">
+              <Option type="Map">
+                <Option type="QString" name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="color" value="183,72,75,255"/>
+                <Option type="QString" name="joinstyle" value="bevel"/>
+                <Option type="QString" name="offset" value="0,0"/>
+                <Option type="QString" name="offset_map_unit_scale" value="3x:0,0,0,0,0,0"/>
+                <Option type="QString" name="offset_unit" value="MM"/>
+                <Option type="QString" name="outline_color" value="35,35,35,255"/>
+                <Option type="QString" name="outline_style" value="solid"/>
+                <Option type="QString" name="outline_width" value="0.26"/>
+                <Option type="QString" name="outline_width_unit" value="MM"/>
+                <Option type="QString" name="style" value="solid"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector" showLabelLegend="0"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="ID_0" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ISO" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_0" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OBJECTID_1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ISO3" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_ENGLI" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_ISO" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_FAO" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_LOCAL" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_OBSOL" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_VARIA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_NONLA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_FRENC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_SPANI" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_RUSSI" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_ARABI" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME_CHINE" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WASPARTOF" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONTAINS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SOVEREIGN" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ISO2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WWW" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ISON" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VALIDFR" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VALIDTO" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POP2000" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQKM" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPSQKM" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNREGION1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNREGION2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEVELOPING" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CIS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Transition" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OECD" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WBREGION" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WBINCOME" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WBDEBT" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WBOTHER" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CEEAC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CEMAC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CEPLG" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COMESA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EAC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ECOWAS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IGAD" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IOC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MRU" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SACU" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UEMOA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UMA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PALOP" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARTA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CACM" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EurAsEC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Agadir" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SAARC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ASEAN" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAFTA" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GCC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CSN" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CARICOM" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="EU" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CAN" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACP" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Landlocked" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AOSIS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIDS" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Islands" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LDC" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="ID_0"/>
+        <alias name="" index="1" field="ISO"/>
+        <alias name="" index="2" field="NAME_0"/>
+        <alias name="" index="3" field="OBJECTID_1"/>
+        <alias name="" index="4" field="ISO3"/>
+        <alias name="" index="5" field="NAME_ENGLI"/>
+        <alias name="" index="6" field="NAME_ISO"/>
+        <alias name="" index="7" field="NAME_FAO"/>
+        <alias name="" index="8" field="NAME_LOCAL"/>
+        <alias name="" index="9" field="NAME_OBSOL"/>
+        <alias name="" index="10" field="NAME_VARIA"/>
+        <alias name="" index="11" field="NAME_NONLA"/>
+        <alias name="" index="12" field="NAME_FRENC"/>
+        <alias name="" index="13" field="NAME_SPANI"/>
+        <alias name="" index="14" field="NAME_RUSSI"/>
+        <alias name="" index="15" field="NAME_ARABI"/>
+        <alias name="" index="16" field="NAME_CHINE"/>
+        <alias name="" index="17" field="WASPARTOF"/>
+        <alias name="" index="18" field="CONTAINS"/>
+        <alias name="" index="19" field="SOVEREIGN"/>
+        <alias name="" index="20" field="ISO2"/>
+        <alias name="" index="21" field="WWW"/>
+        <alias name="" index="22" field="FIPS"/>
+        <alias name="" index="23" field="ISON"/>
+        <alias name="" index="24" field="VALIDFR"/>
+        <alias name="" index="25" field="VALIDTO"/>
+        <alias name="" index="26" field="POP2000"/>
+        <alias name="" index="27" field="SQKM"/>
+        <alias name="" index="28" field="POPSQKM"/>
+        <alias name="" index="29" field="UNREGION1"/>
+        <alias name="" index="30" field="UNREGION2"/>
+        <alias name="" index="31" field="DEVELOPING"/>
+        <alias name="" index="32" field="CIS"/>
+        <alias name="" index="33" field="Transition"/>
+        <alias name="" index="34" field="OECD"/>
+        <alias name="" index="35" field="WBREGION"/>
+        <alias name="" index="36" field="WBINCOME"/>
+        <alias name="" index="37" field="WBDEBT"/>
+        <alias name="" index="38" field="WBOTHER"/>
+        <alias name="" index="39" field="CEEAC"/>
+        <alias name="" index="40" field="CEMAC"/>
+        <alias name="" index="41" field="CEPLG"/>
+        <alias name="" index="42" field="COMESA"/>
+        <alias name="" index="43" field="EAC"/>
+        <alias name="" index="44" field="ECOWAS"/>
+        <alias name="" index="45" field="IGAD"/>
+        <alias name="" index="46" field="IOC"/>
+        <alias name="" index="47" field="MRU"/>
+        <alias name="" index="48" field="SACU"/>
+        <alias name="" index="49" field="UEMOA"/>
+        <alias name="" index="50" field="UMA"/>
+        <alias name="" index="51" field="PALOP"/>
+        <alias name="" index="52" field="PARTA"/>
+        <alias name="" index="53" field="CACM"/>
+        <alias name="" index="54" field="EurAsEC"/>
+        <alias name="" index="55" field="Agadir"/>
+        <alias name="" index="56" field="SAARC"/>
+        <alias name="" index="57" field="ASEAN"/>
+        <alias name="" index="58" field="NAFTA"/>
+        <alias name="" index="59" field="GCC"/>
+        <alias name="" index="60" field="CSN"/>
+        <alias name="" index="61" field="CARICOM"/>
+        <alias name="" index="62" field="EU"/>
+        <alias name="" index="63" field="CAN"/>
+        <alias name="" index="64" field="ACP"/>
+        <alias name="" index="65" field="Landlocked"/>
+        <alias name="" index="66" field="AOSIS"/>
+        <alias name="" index="67" field="SIDS"/>
+        <alias name="" index="68" field="Islands"/>
+        <alias name="" index="69" field="LDC"/>
+      </aliases>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="ID_0"/>
+        <default expression="" applyOnUpdate="0" field="ISO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_0"/>
+        <default expression="" applyOnUpdate="0" field="OBJECTID_1"/>
+        <default expression="" applyOnUpdate="0" field="ISO3"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ENGLI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ISO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_FAO"/>
+        <default expression="" applyOnUpdate="0" field="NAME_LOCAL"/>
+        <default expression="" applyOnUpdate="0" field="NAME_OBSOL"/>
+        <default expression="" applyOnUpdate="0" field="NAME_VARIA"/>
+        <default expression="" applyOnUpdate="0" field="NAME_NONLA"/>
+        <default expression="" applyOnUpdate="0" field="NAME_FRENC"/>
+        <default expression="" applyOnUpdate="0" field="NAME_SPANI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_RUSSI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_ARABI"/>
+        <default expression="" applyOnUpdate="0" field="NAME_CHINE"/>
+        <default expression="" applyOnUpdate="0" field="WASPARTOF"/>
+        <default expression="" applyOnUpdate="0" field="CONTAINS"/>
+        <default expression="" applyOnUpdate="0" field="SOVEREIGN"/>
+        <default expression="" applyOnUpdate="0" field="ISO2"/>
+        <default expression="" applyOnUpdate="0" field="WWW"/>
+        <default expression="" applyOnUpdate="0" field="FIPS"/>
+        <default expression="" applyOnUpdate="0" field="ISON"/>
+        <default expression="" applyOnUpdate="0" field="VALIDFR"/>
+        <default expression="" applyOnUpdate="0" field="VALIDTO"/>
+        <default expression="" applyOnUpdate="0" field="POP2000"/>
+        <default expression="" applyOnUpdate="0" field="SQKM"/>
+        <default expression="" applyOnUpdate="0" field="POPSQKM"/>
+        <default expression="" applyOnUpdate="0" field="UNREGION1"/>
+        <default expression="" applyOnUpdate="0" field="UNREGION2"/>
+        <default expression="" applyOnUpdate="0" field="DEVELOPING"/>
+        <default expression="" applyOnUpdate="0" field="CIS"/>
+        <default expression="" applyOnUpdate="0" field="Transition"/>
+        <default expression="" applyOnUpdate="0" field="OECD"/>
+        <default expression="" applyOnUpdate="0" field="WBREGION"/>
+        <default expression="" applyOnUpdate="0" field="WBINCOME"/>
+        <default expression="" applyOnUpdate="0" field="WBDEBT"/>
+        <default expression="" applyOnUpdate="0" field="WBOTHER"/>
+        <default expression="" applyOnUpdate="0" field="CEEAC"/>
+        <default expression="" applyOnUpdate="0" field="CEMAC"/>
+        <default expression="" applyOnUpdate="0" field="CEPLG"/>
+        <default expression="" applyOnUpdate="0" field="COMESA"/>
+        <default expression="" applyOnUpdate="0" field="EAC"/>
+        <default expression="" applyOnUpdate="0" field="ECOWAS"/>
+        <default expression="" applyOnUpdate="0" field="IGAD"/>
+        <default expression="" applyOnUpdate="0" field="IOC"/>
+        <default expression="" applyOnUpdate="0" field="MRU"/>
+        <default expression="" applyOnUpdate="0" field="SACU"/>
+        <default expression="" applyOnUpdate="0" field="UEMOA"/>
+        <default expression="" applyOnUpdate="0" field="UMA"/>
+        <default expression="" applyOnUpdate="0" field="PALOP"/>
+        <default expression="" applyOnUpdate="0" field="PARTA"/>
+        <default expression="" applyOnUpdate="0" field="CACM"/>
+        <default expression="" applyOnUpdate="0" field="EurAsEC"/>
+        <default expression="" applyOnUpdate="0" field="Agadir"/>
+        <default expression="" applyOnUpdate="0" field="SAARC"/>
+        <default expression="" applyOnUpdate="0" field="ASEAN"/>
+        <default expression="" applyOnUpdate="0" field="NAFTA"/>
+        <default expression="" applyOnUpdate="0" field="GCC"/>
+        <default expression="" applyOnUpdate="0" field="CSN"/>
+        <default expression="" applyOnUpdate="0" field="CARICOM"/>
+        <default expression="" applyOnUpdate="0" field="EU"/>
+        <default expression="" applyOnUpdate="0" field="CAN"/>
+        <default expression="" applyOnUpdate="0" field="ACP"/>
+        <default expression="" applyOnUpdate="0" field="Landlocked"/>
+        <default expression="" applyOnUpdate="0" field="AOSIS"/>
+        <default expression="" applyOnUpdate="0" field="SIDS"/>
+        <default expression="" applyOnUpdate="0" field="Islands"/>
+        <default expression="" applyOnUpdate="0" field="LDC"/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ID_0"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ISO"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_0"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="OBJECTID_1"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ISO3"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_ENGLI"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_ISO"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_FAO"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_LOCAL"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_OBSOL"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_VARIA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_NONLA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_FRENC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_SPANI"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_RUSSI"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_ARABI"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAME_CHINE"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WASPARTOF"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CONTAINS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="SOVEREIGN"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ISO2"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WWW"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="FIPS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ISON"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="VALIDFR"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="VALIDTO"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="POP2000"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="SQKM"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="POPSQKM"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="UNREGION1"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="UNREGION2"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="DEVELOPING"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CIS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="Transition"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="OECD"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WBREGION"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WBINCOME"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WBDEBT"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="WBOTHER"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CEEAC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CEMAC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CEPLG"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="COMESA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="EAC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ECOWAS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="IGAD"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="IOC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="MRU"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="SACU"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="UEMOA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="UMA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="PALOP"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="PARTA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CACM"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="EurAsEC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="Agadir"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="SAARC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ASEAN"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="NAFTA"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="GCC"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CSN"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CARICOM"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="EU"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="CAN"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="ACP"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="Landlocked"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="AOSIS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="SIDS"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="Islands"/>
+        <constraint notnull_strength="0" exp_strength="0" constraints="0" unique_strength="0" field="LDC"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" exp="" field="ID_0"/>
+        <constraint desc="" exp="" field="ISO"/>
+        <constraint desc="" exp="" field="NAME_0"/>
+        <constraint desc="" exp="" field="OBJECTID_1"/>
+        <constraint desc="" exp="" field="ISO3"/>
+        <constraint desc="" exp="" field="NAME_ENGLI"/>
+        <constraint desc="" exp="" field="NAME_ISO"/>
+        <constraint desc="" exp="" field="NAME_FAO"/>
+        <constraint desc="" exp="" field="NAME_LOCAL"/>
+        <constraint desc="" exp="" field="NAME_OBSOL"/>
+        <constraint desc="" exp="" field="NAME_VARIA"/>
+        <constraint desc="" exp="" field="NAME_NONLA"/>
+        <constraint desc="" exp="" field="NAME_FRENC"/>
+        <constraint desc="" exp="" field="NAME_SPANI"/>
+        <constraint desc="" exp="" field="NAME_RUSSI"/>
+        <constraint desc="" exp="" field="NAME_ARABI"/>
+        <constraint desc="" exp="" field="NAME_CHINE"/>
+        <constraint desc="" exp="" field="WASPARTOF"/>
+        <constraint desc="" exp="" field="CONTAINS"/>
+        <constraint desc="" exp="" field="SOVEREIGN"/>
+        <constraint desc="" exp="" field="ISO2"/>
+        <constraint desc="" exp="" field="WWW"/>
+        <constraint desc="" exp="" field="FIPS"/>
+        <constraint desc="" exp="" field="ISON"/>
+        <constraint desc="" exp="" field="VALIDFR"/>
+        <constraint desc="" exp="" field="VALIDTO"/>
+        <constraint desc="" exp="" field="POP2000"/>
+        <constraint desc="" exp="" field="SQKM"/>
+        <constraint desc="" exp="" field="POPSQKM"/>
+        <constraint desc="" exp="" field="UNREGION1"/>
+        <constraint desc="" exp="" field="UNREGION2"/>
+        <constraint desc="" exp="" field="DEVELOPING"/>
+        <constraint desc="" exp="" field="CIS"/>
+        <constraint desc="" exp="" field="Transition"/>
+        <constraint desc="" exp="" field="OECD"/>
+        <constraint desc="" exp="" field="WBREGION"/>
+        <constraint desc="" exp="" field="WBINCOME"/>
+        <constraint desc="" exp="" field="WBDEBT"/>
+        <constraint desc="" exp="" field="WBOTHER"/>
+        <constraint desc="" exp="" field="CEEAC"/>
+        <constraint desc="" exp="" field="CEMAC"/>
+        <constraint desc="" exp="" field="CEPLG"/>
+        <constraint desc="" exp="" field="COMESA"/>
+        <constraint desc="" exp="" field="EAC"/>
+        <constraint desc="" exp="" field="ECOWAS"/>
+        <constraint desc="" exp="" field="IGAD"/>
+        <constraint desc="" exp="" field="IOC"/>
+        <constraint desc="" exp="" field="MRU"/>
+        <constraint desc="" exp="" field="SACU"/>
+        <constraint desc="" exp="" field="UEMOA"/>
+        <constraint desc="" exp="" field="UMA"/>
+        <constraint desc="" exp="" field="PALOP"/>
+        <constraint desc="" exp="" field="PARTA"/>
+        <constraint desc="" exp="" field="CACM"/>
+        <constraint desc="" exp="" field="EurAsEC"/>
+        <constraint desc="" exp="" field="Agadir"/>
+        <constraint desc="" exp="" field="SAARC"/>
+        <constraint desc="" exp="" field="ASEAN"/>
+        <constraint desc="" exp="" field="NAFTA"/>
+        <constraint desc="" exp="" field="GCC"/>
+        <constraint desc="" exp="" field="CSN"/>
+        <constraint desc="" exp="" field="CARICOM"/>
+        <constraint desc="" exp="" field="EU"/>
+        <constraint desc="" exp="" field="CAN"/>
+        <constraint desc="" exp="" field="ACP"/>
+        <constraint desc="" exp="" field="Landlocked"/>
+        <constraint desc="" exp="" field="AOSIS"/>
+        <constraint desc="" exp="" field="SIDS"/>
+        <constraint desc="" exp="" field="Islands"/>
+        <constraint desc="" exp="" field="LDC"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="AFG_adm0_f48d1a0a_f521_49b2_a2b0_1abe60db9885"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option type="QString" name="name" value=""/>
+      <Option name="properties"/>
+      <Option type="QString" name="type" value="collection"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author>ramesh</author>
+    <creation>2024-02-12T16:05:54</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0" rotation="0">
+    <Scales/>
+  </ProjectViewSettings>
+  <ProjectStyleSettings projectStyleId="attachment:///xNCtJO_styles.db" RandomizeDefaultSymbolColor="1" DefaultSymbolOpacity="1">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings timeStepUnit="h" cumulativeTemporalRange="0" timeStep="1" frameRate="1"/>
+  <ElevationProperties>
+    <terrainProvider type="flat">
+      <TerrainProvider offset="0" scale="1"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateType="MapCrs" CoordinateAxisOrder="Default">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="direction_format" value="0"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option type="QString" name="angle_format" value="DecimalDegrees"/>
+        <Option type="invalid" name="decimal_separator"/>
+        <Option type="int" name="decimals" value="6"/>
+        <Option type="int" name="rounding_type" value="0"/>
+        <Option type="bool" name="show_leading_degree_zeros" value="false"/>
+        <Option type="bool" name="show_leading_zeros" value="false"/>
+        <Option type="bool" name="show_plus" value="false"/>
+        <Option type="bool" name="show_suffix" value="false"/>
+        <Option type="bool" name="show_thousand_separator" value="true"/>
+        <Option type="bool" name="show_trailing_zeros" value="false"/>
+        <Option type="invalid" name="thousand_separator"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+</qgis>
